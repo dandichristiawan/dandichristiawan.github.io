@@ -1,0 +1,57 @@
+* {   
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+}
+
+.main {
+  height: 100%;
+  display: flex;
+  background-color: #d5e1ef;
+  justify-content: center;
+  align-items: center;
+}
+
+.second {
+  background-color: #ffffff;
+  border-radius: 10px;
+  width: 300px;
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.qrcode {
+  margin: 10px;
+  border-radius: 10px
+}
+
+.text-container {
+  margin: 20px;
+}
+
+.text {
+  font-size: 15px;
+  text-align: center;
+  font-family: 'Outfit', sans-serif;
+}
+
+.heading-container {
+  margin: 5px;
+}
+
+.heading {
+  font-family: 'Outfit', sans-serif;
+  font-weight: bold;
+  text-align: center;
+  font-size: 23px;
+}
+
+.attribution {
+  background-color: #d5e1ef;
+  text-align: center;
+}
