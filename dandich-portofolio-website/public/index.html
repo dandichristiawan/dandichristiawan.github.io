@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+
+  <header>
+    <nav class="bg-black">
+      <div class="max w-7xl mx-auto px-2 sm:px-6 lg:px-8">
+        <div class="relative flex items-center justify-between h-20">
+          <div class="flex-shrink-0 flex items-center">
+            <div class="flex flex-col items-center">
+              <a
+                class="bg-gradient-to-r from-blue-500 to-teal-400 bg-clip-text text-transparent text-2xl font-poppins font-semibold"
+                href=""
+              >
+                Dandi
+              </a>
+            </div>
+          </div>
+          <div class="hidden md:block">
+            <ul class="flex flex-row font-poppins font-medium">
+              <li>
+                <a class="mx-4 text-xl text-white" href="">Home</a>
+              </li>
+              <li>
+                <a class="mx-4 text-xl text-white" href="">About</a>
+              </li>
+              <li>
+                <a class="mx-4 text-xl text-white" href="">Projects</a>
+              </li>
+              <li>
+                <a class="mx-4 text-xl text-white" href="">Skills</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <body>
+    <!--Start of Home Section-->
+    <section class="bg-[#081c29] flex flex-col min-h-screen px-10 pt-32 pb-8">
+      <div class="text-white max-w-4xl mx-auto items-center text-center">
+        <h1 class="font-poppins font-medium text-5xl py-2">
+          Hi, I'm Dandi Christiawan
+        </h1>
+        <h4 class="font-poppins font-medium text-3xl pb-3">
+          Frontend Developer
+        </h4>
+        <p class="font-poppins font-normal text-xl text-center leading-relaxed">
+          A motivated and passionate computer engineering graduate with a focus
+          on software development. Equipped with a solid foundation in computer
+          science and programming, I completed a fullstack developer bootcamp to
+          enhance my skills and gain hands-on experience in creating end-to-end
+          applications. I'm very interested in specializing and develop my
+          skills as a Front-End Developer.
+        </p>
+      </div>
+      <div class="mx-auto max-h-sm py-5 text-white">
+        <button
+          onclick="openWhatsAppChat()"
+          class="rounded-full border-2 border-blue-600 hover:bg-blue-600 p-4 mr-3"
+        >
+          <i class="fa fa-whatsapp mr-2" style="font-size: 20px"></i>
+          Let's Talk!
+        </button>
+        <button
+          class="rounded-full border-2 border-blue-600 hover:bg-blue-600 p-4 ml-3"
+        >
+          <a href="mailto:dandichristiawan@gmail.com">
+            <i class="fa fa-envelope mr-2"></i>
+            Email Me!
+          </a>
+        </button>
+      </div>
+    </section>
+    <!--End of Home Section-->
+
+    <!--Start of About Section-->
+    <section
+      class="bg-[#0f2c43] min-h-screen flex flex-col justify-center items-center gap-8 pb-32"
+    >
+      <h2 class="mt-12 font-poppins font-semibold text-white text-5xl">
+        About <span>Me</span>
+      </h2>
+
+      <div
+        class="relative w-64 h-64 rounded-full flex justify-center items-center"
+      >
+        <img
+          class="w-60 rounded-full border-2 border-[#237499]"
+          src="../images/DandiChristiawan.jpeg"
+          alt=""
+        />
+        <span
+          class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 rotate-0 w-full h-full rounded-full border-2 border-x-[#237499] border-y-[#0f2c43] border-t-2 border-b-2 border-l-2 border-r-2 animate-aboutSpinner"
+        >
+        </span>
+      </div>
+
+      <div class="text-center items-center text-white">
+        <h3 class="font-poppins font-bold text-3xl">Dandi Christiawan</h3>
+        <h6 class="font-poppins font-medium text-l">Frontend Developer</h6>
+        <p
+          class="font-poppins font-normal text-center leading-loose py-3 px-20"
+        >
+          I was born in Jakarta, Indonesia, on the 22nd of October in the year
+          2000, embarking on a journey that would shape the course of my life.
+          Growing up, My love for computers began when my father introduced me
+          to them. Motivated by my deep interest in technology and its
+          potential, I chose to pursue a computer engineering degree in college.
+          Throughout my college journey, I always strived to do my best,
+          ensuring I passed all of my courses and graduated on time. It was
+          during this time that I discovered the field of software engineering,
+          and I developed a strong interest in web development. As I graduated
+          from college, I looked back with a sense of pride and accomplishment.
+          My determination to excel in my coursework paid off as I successfully
+          passed all my courses and obtained my degree on time. The time I spent
+          exploring the field of software engineering during my college years
+          had a profound impact on me. I recently completed a full-stack web
+          development bootcamp, which further fueled my passion for web
+          development. Throughout the bootcamp, I engaged in intensive hands-on
+          training, gaining valuable practical experience in both front-end and
+          back-end development. The bootcamp exposed me to cutting-edge
+          technologies and industry best practices, empowering me to create
+          robust and scalable web applications.
+        </p>
+      </div>
+
+      <div class="text-center items-center text-white">
+        <h3 class="font-poppins font-medium text-3xl">Connect with Me!</h3>
+        <div class="mx-auto max-w-md py-5 flex flex-row">
+          <div class="flex flex-col mr-7">
+            <a
+              href="https://linkedin.com/in/dandich"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <div
+                class="border-2 border-[#237499] hover:bg-[#2d3e52] rounded-full inline-flex p-4 items-center"
+              >
+                <i
+                  class="fa fa-linkedin-square"
+                  style="font-size: 20px; color: white"
+                ></i>
+              </div>
+            </a>
+            <p class="py-2">LinkedIn</p>
+          </div>
+          <div class="flex flex-col mr-7">
+            <a
+              href="https://twitter.com/dandich"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <div
+                class="border-2 border-[#237499] hover:bg-[#2d3e52] rounded-full inline-flex p-4 items-center"
+              >
+                <i
+                  class="fa fa-twitter"
+                  style="font-size: 20px; color: white"
+                ></i>
+              </div>
+            </a>
+            <p class="py-2">Twitter</p>
+          </div>
+          <div class="flex flex-col mr-7">
+            <a
+              href="https://www.behance.net/dandich"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <div
+                class="border-2 border-[#237499] hover:bg-[#2d3e52] rounded-full inline-flex p-4 items center"
+              >
+                <i
+                  class="fa fa-behance-square"
+                  style="font-size: 20px; color: white"
+                ></i>
+              </div>
+            </a>
+            <p class="py-2">Behance</p>
+          </div>
+          <div class="flex flex-col mr-7">
+            <a
+              href="https://github.com/dandichristiawan"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <div
+                class="border-2 border-[#237499] hover:bg-[#2d3e52] rounded-full inline-flex p-4 items-center"
+              >
+                <i
+                  class="fa fa-github"
+                  style="font-size: 20px; color: white"
+                ></i>
+              </div>
+            </a>
+            <p class="py-2">Github</p>
+          </div>
+          <div class="flex flex-col">
+            <a
+              href="https://gitlab.com/dandich"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <div
+                class="border-2 border-[#237499] hover:bg-[#2d3e52] rounded-full inline-flex p-4 items-center"
+              >
+                <i
+                  class="fa fa-gitlab"
+                  style="font-size: 20px; color: white"
+                ></i>
+              </div>
+            </a>
+            <p class="py-2">Gitlab</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--End of About Section-->
+
+    <!--Start of Projects Section-->
+    <section class="bg-[#081c29] min-h-screen">
+      <h1 class="font-poppins font-semibold text-white text-5xl text-center">
+        Projects
+      </h1>
+      <div
+        class="flex flex-col items-center justify-center md:flex-row lg:flex-row"
+      >
+        <div
+          class="max-w-sm rounded-lg overflow-hidden shadow-lg bg-[#0f2c43] mb-5 md:mb-0 md:mr-5 lg:mr-5"
+        >
+          <a
+            href="https://www.behance.net/gallery/174664055/Company-Profile-for-Dwidaya-Media-Komunikasi"
+            target="_blank"
+            srel="noopener noreferrer"
+          >
+            <img
+              class="w-full rounded-tl-lg rounded-tr-lg"
+              src="/images/Landingpage (2).png"
+              alt="Sunset in the mountains"
+            />
+          </a>
+          <div class="px-6 py-3">
+            <div class="font-bold text-white text-xl px-2 py-2">
+              Company Profile Website
+            </div>
+            <p class="text-white text-base px-2 py-2">
+              This is still a work in progress, im developing a company profile
+              for Dwidaya Media Komunikasi using Next.js, TailwindCSS
+            </p>
+          </div>
+        </div>
+
+        <div
+          class="max-w-sm rounded-lg overflow-hidden shadow-lg bg-[#0f2c43] mb-5 md:mb-0 md:mr-5 lg:mr-5"
+        >
+          <a
+            href="https://www.behance.net/gallery/174658999/Rock-Paper-Scissor-JavaScript"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              class="w-full rounded-tl-lg rounded-tr-lg"
+              src="/images/RPS(1).png"
+              alt="Sunset in the mountains"
+            />
+          </a>
+          <div class="px-6 py-3">
+            <div class="font-bold text-white text-xl px-2 py-2">
+              Rock Paper Scissor
+            </div>
+            <p class="text-white text-base px-2 py-2">
+              This is still a work in progress, im developing a company profile
+              for Dwidaya Media Komunikasi using Next.js, TailwindCSS
+            </p>
+          </div>
+        </div>
+
+        <div class="max-w-sm rounded-lg overflow-hidden shadow-lg bg-[#0f2c43]">
+          <a
+            href="https://www.behance.net/gallery/174661255/CalorieX-(React-Native-Application)"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              class="w-full"
+              src="/images/caloriex.png"
+              alt="Sunset in the mountains"
+            />
+          </a>
+          <div class="px-6 py-3">
+            <div class="font-bold text-white text-xl px-2 py-2">Calorie X</div>
+            <p class="text-white text-base px-2 py-2">
+              This is still a work in progress, im developing a company profile
+              for Dwidaya Media Komunikasi using Next.js, TailwindCSS
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--End of Project Section-->
+    
+    <section class="min-h-screen">
+      <div class="grid grid-cols-3">
+        <div className="bg-red-500 rounded-lg shadow-xl min-h-[50px]" />
+        <div className="bg-yellow-500 rounded-lg shadow-xl min-h-[50px]" />
+        <div className="bg-green-500 rounded-lg shadow-xl min-h-[50px]" />
+        <div className="bg-blue-500 rounded-lg shadow-xl min-h-[50px]" />
+        <div className="bg-orange-500 rounded-lg shadow-xl min-h-[50px]" />
+        <div className="bg-purple-500 rounded-lg shadow-xl min-h-[50px]" />
+      </div>
+    </section>
+
+
+  </body>
+  <script src="script.js" charset="utf-8"></script>
+</html>
